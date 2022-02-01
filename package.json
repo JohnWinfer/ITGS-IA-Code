@@ -1,0 +1,14 @@
+{
+  "name": "kaust_1st_website",
+  "version": "1.0.0",
+  "description": "The 1st KAUST Cub Scout Website, designed and made by a student for his ITGS IA",
+  "main": "webserver.js",
+  "scripts": {
+    "test": "echo \"Error: no test specified\" && exit 1"
+  },
+  "author": "John Winfer",
+  "license": "ISC",
+  "dependencies": {
+    "express": "^4.17.1"
+  }
+}
