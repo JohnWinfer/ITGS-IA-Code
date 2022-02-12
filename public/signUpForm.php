@@ -10,7 +10,7 @@
     $grade = $_POST['grade'];
     $gender = $_POST['gender'];
 
-    $email_from = 'kaustcubs@gmail.com';
+    $email_from = 'kaustcubssignup@gmail.com';
     $email_subject = "New Sign Up";
     $email_body = "Parent Name: $parentname \n".
                     "Parents Email: $email \n".
@@ -22,7 +22,7 @@
                                             "Childs Last Names: $childsLName \n".
                                                 "Childs Grade: $grade \n".
                                                     "Childs Gender: $gender \n";
-    $to = "kaustcubs@gmail.com";
+    $to = "kaustcubssignup@gmail.com";
     $headers = "From: $email_from \r\n";
     $headers .= "Reply-To: $email \r\n";
     mail($to,$email_subject,$email_body,$headers);
